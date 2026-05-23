@@ -1,0 +1,46 @@
+{
+  "Palettes1": {
+    "midnight_blue": "#1A1F2B",
+    "coral_amber": "#FF6F5E",
+    "ocea_nmist": "#3CA6A6",
+    "cloud_pearl": "#F3F4F6"
+  },
+  "Palettes2": {
+    "frost-white": "#F8F9FA",
+    "ice-blue": "#D0EBFF",
+    "slate-gray": "#495057",
+    "winter-navy": "#1C2B39"
+  },
+  "Palettes3": {
+    "sunset-coral": "#FF6B6B",
+    "golden-sand": "#FFD93D",
+    "lagoon-teal": "#00A8A8",
+    "evening-lavender": "#A393EB"
+  },
+  "Palettes4": {
+    "neon-fuchsia": "#FF2E9A",
+    "eletric-indigo": "#5D00FF",
+    "cyber-lime": "#CFFF04",
+    "graphite-black": "#1C1C1C"
+  },
+  "Palettes5": {
+    "stone-charcoal": "#2E2E2E",
+    "moss-green": "#6C8A5D",
+    "clay-beige": "#D8CAB8",
+    "sky-fog": "#EEF1F3"
+  },
+  "Palettes6": {
+    "Bubblegum Pink": "#ef476f",
+    "Royal Gold": "#ffd166",
+    "Emerald": "#06d6a0",
+    "Ocean Blue": "#118ab2",
+    "Dark Teal": "#073b4c"
+  },
+  "Soft Sand": {
+    "Parchment": "#EDEDE9",
+    "Bone": "#D6CCC2",
+    "Linen": "#f5ebe0",
+    "Almond Cream": "#e3d5ca",
+    "Almond Silk": "#d5bdaf"
+  }
+}
