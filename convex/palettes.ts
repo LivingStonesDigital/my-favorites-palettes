@@ -15,16 +15,25 @@ export const list = query({
 export const search = query({
   args: { query: v.string() },
   handler: async (ctx, args) => {
-    const all = await ctx.db
-      .query('palettes')
-      .withIndex('by_creation_time')
-      .order('desc')
-      .collect()
+    try {
+      const all = await ctx.db
+        .query('palettes')
+        .withIndex('by_creation_time')
+        .order('desc')
+        .collect()
 
-    if (!args.query.trim()) return all
+      if (!args.query.trim()) return all
 
-    const lower = args.query.toLowerCase()
-    return all.filter((p) => p.name.toLowerCase().includes(lower))
+      const lower = args.query.toLowerCase()
+      return all.filter((p) => p.name.toLowerCase().includes(lower))
+    } catch (error) {
+      console.error('Search error:', error)
+      throw new Error(
+        `Search failed: ${
+          error instanceof Error ? error.message : String(error)
+        }`,
+      )
+    }
   },
 })
 
